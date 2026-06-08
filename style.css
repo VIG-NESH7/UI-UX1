@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f8f7f2;
+  padding: 30px;
+}
+
+.main-card {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border: 5px solid #111;
+  padding: 25px;
+}
+
+.badge {
+  display: inline-block;
+  background: #8b5cf6;
+  color: #111;
+  border: 4px solid #111;
+  padding: 10px 25px;
+  font-weight: bold;
+  box-shadow: 5px 5px #111;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+.sub {
+  display: inline-block;
+  background: #eaff00;
+  border: 4px solid #111;
+  padding: 8px 15px;
+  margin: 10px 0 25px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  gap: 14px;
+  align-items: stretch;
+}
+
+.task-box {
+  width: 130px;
+  border: 4px solid #111;
+  padding: 12px;
+}
+
+.task-box h3 {
+  background: #8b5cf6;
+  margin: -12px -12px 15px;
+  padding: 10px;
+  border-bottom: 4px solid #111;
+  font-size: 15px;
+}
+
+.target {
+  background: #eaff00;
+  border: 4px solid #111;
+  font-size: 45px;
+  padding: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.phone {
+  width: 150px;
+  height: 340px;
+  border: 5px solid #111;
+  border-radius: 22px;
+  padding: 20px 10px;
+  position: relative;
+  background: white;
+}
+
+.phone::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #111;
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  left: 50%;
+}
+
+.splash {
+  background: linear-gradient(160deg, #8b5cf6, #7c3aed);
+  color: white;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.splash button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 7px;
+  background: #eaff00;
+  border: 3px solid #111;
+  font-weight: bold;
+}
+
+.splash .login {
+  background: white;
+}
+
+.menu {
+  border: 3px solid #111;
+  margin: 12px 0;
+  padding: 10px;
+  background: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.menu.active {
+  background: #eaff00;
+}
+
+.task {
+  border: 2px solid #111;
+  padding: 10px;
+  margin: 12px 0;
+  font-size: 12px;
+}
+
+.task span {
+  float: right;
+  background: #eaff00;
+  border: 2px solid #111;
+  padding: 2px;
+}
+
+.stats {
+  background: #8b5cf6;
+  border: 3px solid #111;
+  color: white;
+  padding: 12px;
+  margin: 20px 0;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 8px solid #eaff00;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.productivity {
+  background: #eaff00;
+  border: 3px solid #111;
+  margin-top: 15px;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.principles {
+  margin-top: 25px;
+  border: 4px solid #111;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.principles div {
+  padding: 15px;
+  border-right: 3px solid #111;
+  font-size: 13px;
+}
+
+.principles div:last-child {
+  border-right: none;
+}
+
+section {
+  margin: 35px -25px -25px;
+  padding: 30px;
+  border-top: 5px solid #111;
+}
+
+section h2 {
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+hr {
+  margin: 25px 0;
+  border: 1px dashed #aaa;
+}
